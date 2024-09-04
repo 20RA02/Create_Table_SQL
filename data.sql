@@ -242,6 +242,10 @@ insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (20, 7
 insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (59, 34, false);
 insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (75, 7, true);
 insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (76, 88, true);
+insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (100, 2, true);
+insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (2, 17, true);
+insert into Friends (FriendWhoAdded, FriendBeingAdded, IsAccepted) values (2, 1, true);
+
 
 
 
