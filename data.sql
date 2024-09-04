@@ -272,6 +272,21 @@ VALUES
 ('The Horizon Seekers', 19),
 ('The Renaissance Network', 20);
 
+
+INSERT INTO Posts (PostDescription, PostedBy, IsOnlyForGroup, IsPublic, IsOnlyForFriends, GroupId) VALUES
+('Discuss best practices for fair and transparent grading systems.', 49, 1, 0, 0, 2),
+('Share interesting insights about alternative grading methods and their effectiveness.', 76, 1, 0, 0, 2),
+('Thoughts on how to improve grading systems for better student feedback.', 10, 1, 0, 0, 9),
+('Discuss the role of grades in academic and career success.', 75, 1, 0, 0, 12);
+INSERT INTO Posts (PostDescription, PostedBy, IsOnlyForGroup, IsPublic, IsOnlyForFriends, GroupId) VALUES
+('What majors are popular?
+', 4, 1, 0, 0, 20),
+('What departments or programs have the best reputations?
+', 4, 1, 0, 0, 20),
+('Do your professors hold office hours, and will they meet with you outside of class?
+', 4, 1, 0, 0, 20);
+
+
 insert into GroupMembershipRequests (GroupID, GroupMemberUserID, IsGroupMemberShipAccepted) values (8, 67, true);
 insert into GroupMembershipRequests (GroupID, GroupMemberUserID, IsGroupMemberShipAccepted) values (17, 31, true);
 insert into GroupMembershipRequests (GroupID, GroupMemberUserID, IsGroupMemberShipAccepted) values (5, 91, false);
